@@ -1,0 +1,8 @@
+.title-clicked .card-title .title-link {
+  color: blue;
+}
+
+.card-img {
+  height: 210px;
+  width: 300px;
+}

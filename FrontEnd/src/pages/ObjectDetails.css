@@ -1,0 +1,119 @@
+.body {
+  background-color: #f8f8f8; /* Lighter background color for the entire page */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Default text color */
+}
+
+.container {
+  padding: 20px;
+}
+
+.product-container {
+  display: flex;
+  align-items: center;
+  background-color: #fffacd; /* Light Lemon Yellow */
+  border: 2px solid #000; /* Add a black border */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.details-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-decoration: underline; /* Add underline to the title */
+  font-weight: bold;
+}
+
+
+
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+  font-weight: bold; /* Make the description bold */
+}
+
+
+.price {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ff4500;
+}
+
+.quantity-container {
+  margin-bottom: 20px;
+}
+
+.quantity-input {
+  width: 60px;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #007bff;
+}
+
+.checkout-button {
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+.reviews h3 {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Make the individual reviews bold */
+.reviews p {
+  font-weight: bold;
+}
+
+/* Add styles for specifications and reviews headings */
+.details h3 {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.details p {
+  font-weight: bold;
+}
+/* Add hover effect to product details */
+.details p:hover,
+.reviews p:hover {
+  color: #007bff;
+}

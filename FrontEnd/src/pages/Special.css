@@ -1,0 +1,53 @@
+/* Special.css */
+.special-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e71c; /* Background color */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .product-image {
+    width: 50%;
+    max-width: 600px;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    background-color: #fff; /* White background for details */
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 20px; /* Add spacing between image and details */
+    text-align: left;
+  }
+  
+  h1 {
+    color: #333; /* Dark text color */
+  }
+  
+  .feature {
+    color: #555; /* Medium text color for features */
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333; /* Dark text color for price */
+  }
+  
+  .buy-now-btn {
+    background-color: #e44d26; /* Orange button color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #c63f23; /* Darker orange on hover */
+  }
+  

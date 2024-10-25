@@ -1,0 +1,102 @@
+.login-container {
+    background-color: aqua;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: black;
+}
+
+.nav-justified {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.masthead {
+    margin-bottom: 20px;
+}
+
+.form-1 {
+    background-color: aqua;
+}
+@media screen and (min-width: 768px) {
+    .masthead {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-justified {
+        max-height: 52px;
+    }
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2; /* Make sure it's above the image */
+  }
+  
+
+.custom-width {
+    width: 50px; /* Adjust the width as needed */
+}
+
+.featured-item-description {
+    text-align: left;
+}
+
+
+#v-pills-home {
+    background-color: #3498db; /* Use your desired shade of blue */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 15px; /* Add padding for better visibility */
+}
+#v-pills-profile {
+    background-color: #3498db; /* Use your desired shade of blue */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 15px; /* Add padding for better visibility */
+}
+#v-pills-messages {
+    background-color: #3498db; /* Use your desired shade of blue */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 15px; /* Add padding for better visibility */
+}
+#v-pills-settings {
+    background-color: #3498db; /* Use your desired shade of blue */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 15px; /* Add padding for better visibility */
+}
+#v-pills-idea {
+    background-color: #3498db; /* Use your desired shade of blue */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 15px; /* Add padding for better visibility */
+}
+.custom-margin-right {
+    margin-right: 30px;
+}
+.btn-home {
+    background-color: white; /* Blue color */
+    color: blue; /* White text */
+}
+
+/* Style for Product button */
+.btn-product {
+    background-color: white; /* Black color */
+    color: black; /* White text */
+}
+
+/* Style for My Account button */
+.btn-my-account {
+    background-color: white; /* Black color */
+    color: black; /* White text */
+}
+
+
